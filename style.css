@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: inherit;
+}
+
+.table-input {
+    overflow-x: auto;
+}
+
+.table-input table {
+    margin: 0 auto;
+}
+
+.table-input table th {
+    font-size: 1.3rem;
+}
+.table-input table th, td {
+    padding: 8px;
+}
+
+.table-input table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+input.rounded-input {
+    display: block;
+    margin: 0 auto;
+    width: 5ch;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    outline: none;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+button.styled-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    box-shadow: 3px 3px grey;
+}
+
+button.styled-btn:active {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px grey;
+}
+
+p.author {
+    text-align: center;
+    margin-top: 10px;
+}
